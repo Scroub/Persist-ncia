@@ -1,26 +1,21 @@
 import java.io.*;
+import java.util.Scanner;
+
 
 public class Atv02 {
     public static void main(String[] args) throws IOException {
-        System.out.println("Digite o Nome do Arquivo Origem:");
-        InputStream is = new FileInputStream(args[0]);
-        System.out.println("Digite o Nome do Arquivo Destino:");
-        OutputStream os = new FileOutputStream(args[1]);
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite o nome do arquivo de Origem:");
+        String name = entrada.nextLine();
+        InputStream is = new FileInputStream(name + ".txt");
+        Scanner ler = new Scanner(is);
         
-        int x = is.read();
+        System.out.println("Digite o nome do arquivo de Destino");
+        String name2 = entrada.nextLine();
+        PrintStream ps = new PrintStream(name2 + ".txt");
 
-        while(x >= -1){
-            try{
-                os.write(x);
-                x = is.read();
-            }catch (IOException e){
-                System.out.println(e.toString());
-            }
+        while(ler.hasNextLine()){
+            ps.println(ler.nextLine());
         }
-
-        System.out.println("Deu certo");
-        
-        is.close();
-        os.close();
     }
 }
