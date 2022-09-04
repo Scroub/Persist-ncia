@@ -12,7 +12,7 @@ public class Serializa {
         List<Jogo> lista = new ArrayList<>();
         lista.add(jogo);
         lista.add(nJogo);
-        
+
         try{
             FileOutputStream fo = new FileOutputStream("Jogos.txt");
             ObjectOutputStream out = new ObjectOutputStream(fo);
