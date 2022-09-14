@@ -1,0 +1,16 @@
+<Steam>
+  <jogos>
+    <jogo>
+      <id>4</id>
+      <nome>God Hand</nome>
+      <dificuldade>5</dificuldade>
+      <personagem>Sukuna</personagem>
+    </jogo>
+    <jogo>
+      <id>2</id>
+      <nome>Guitar Hero</nome>
+      <dificuldade>2</dificuldade>
+      <personagem>Iury</personagem>
+    </jogo>
+  </jogos>
+</Steam>
