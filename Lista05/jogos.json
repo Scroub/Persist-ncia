@@ -1,0 +1,13 @@
+{
+  "jogos" : [ {
+    "id" : 4,
+    "nome" : "God Hand",
+    "dificuldade" : 5,
+    "personagem" : "Sukuna"
+  }, {
+    "id" : 2,
+    "nome" : "Guitar Hero",
+    "dificuldade" : 2,
+    "personagem" : "Iury"
+  } ]
+}
