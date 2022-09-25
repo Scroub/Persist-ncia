@@ -1,18 +1,18 @@
 <ListaDeJogos>
   <Jogos>
     <Jogo>
-      <id>10</id>
-      <nome>Iury</nome>
-      <dificuldade>10</dificuldade>
-      <categoria>Iury</categoria>
-      <personagem>Iury</personagem>
+      <id>1</id>
+      <nome>Guitar-Hero</nome>
+      <dificuldade>3</dificuldade>
+      <categoria>Musica</categoria>
+      <personagem>Sukuna</personagem>
     </Jogo>
     <Jogo>
-      <id>20</id>
-      <nome>Aluisio</nome>
-      <dificuldade>20</dificuldade>
-      <categoria>Aluisio</categoria>
-      <personagem>Aluisio</personagem>
+      <id>2</id>
+      <nome>Mortal-Kombat</nome>
+      <dificuldade>4</dificuldade>
+      <categoria>Lutas</categoria>
+      <personagem>Baraka</personagem>
     </Jogo>
   </Jogos>
 </ListaDeJogos>
