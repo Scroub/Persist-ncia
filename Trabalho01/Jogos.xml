@@ -1,18 +1,11 @@
 <ListaDeJogos>
   <Jogos>
     <Jogo>
-      <id>1</id>
+      <id>2</id>
       <nome>Guitar-Hero</nome>
       <dificuldade>3</dificuldade>
       <categoria>Musica</categoria>
       <personagem>Sukuna</personagem>
-    </Jogo>
-    <Jogo>
-      <id>2</id>
-      <nome>Mortal-Kombat</nome>
-      <dificuldade>4</dificuldade>
-      <categoria>Lutas</categoria>
-      <personagem>Baraka</personagem>
     </Jogo>
   </Jogos>
 </ListaDeJogos>
