@@ -1,0 +1,18 @@
+<ListaDeJogos>
+  <Jogos>
+    <Jogo>
+      <id>10</id>
+      <nome>Iury</nome>
+      <dificuldade>10</dificuldade>
+      <categoria>Iury</categoria>
+      <personagem>Iury</personagem>
+    </Jogo>
+    <Jogo>
+      <id>20</id>
+      <nome>Aluisio</nome>
+      <dificuldade>20</dificuldade>
+      <categoria>Aluisio</categoria>
+      <personagem>Aluisio</personagem>
+    </Jogo>
+  </Jogos>
+</ListaDeJogos>

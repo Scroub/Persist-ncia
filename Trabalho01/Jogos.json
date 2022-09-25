@@ -1,0 +1,15 @@
+{
+  "jogos" : [ {
+    "id" : 10,
+    "nome" : "Iury",
+    "dificuldade" : 10,
+    "categoria" : "Iury",
+    "personagem" : "Iury"
+  }, {
+    "id" : 20,
+    "nome" : "Aluisio",
+    "dificuldade" : 20,
+    "categoria" : "Aluisio",
+    "personagem" : "Aluisio"
+  } ]
+}
